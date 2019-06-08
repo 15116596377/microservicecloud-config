@@ -5,20 +5,20 @@ spring:
 
 ---
 spring:
-  profiles: dev #¿ª·¢»·¾³
+  profiles: dev #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-atguigu-dev
 
 ---
 spring:
-  profiles: test #²âÊÔ»·¾³
+  profiles: test #æµ‹è¯•ç¯å¢ƒ
   application:
     name: microservicecloud-config-atguigu-test
 
 ---
 spring:
-  profiles: prod #Éú²ú»·¾³
+  profiles: prod #ç”Ÿäº§ç¯å¢ƒ
   application:
     name: microservicecloud-config-atguigu-prod
 
-#Çë±£´æÎªUTF-8¸ñÊ½
+#è¯·ä¿å­˜ä¸ºUTF-8æ ¼å¼
